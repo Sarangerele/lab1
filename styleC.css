@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ffff;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+p {
+    background-image: linear-gradient(red, yellow);
+}
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    color: #61dafb;
+    background-color: #20232a;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 25px;
+    transition: 0.1s ease-in;
+    box-shadow: 5px 10px #888888;
+}
+
+.box:hover {
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    color: #2f3437;
+    box-shadow: 5px 10px #888888;
+}

@@ -1,0 +1,32 @@
+* {
+    font-size: 40px;
+    font-family: Tahoma;
+}
+
+.flex-container {
+    display: flex;
+    overflow: auto;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #d0d0ff;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: yellow;
+}
+
+p {
+    margin: 10px 0 0 10px;
+}
+
+.single {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
